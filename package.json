@@ -1,0 +1,29 @@
+{
+  "name": "jetengine",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "EDF-1000 — 1 metrelik elektrikli jet motoru (ducted fan): parametrik 3D CAD + fizik simulasyonu",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "export:models": "node scripts/run.mjs scripts/export-models.ts",
+    "report": "node scripts/run.mjs scripts/report.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.1",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@types/three": "^0.169.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8"
+  }
+}

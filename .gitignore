@@ -1,0 +1,24 @@
+# Bağımlılıklar
+node_modules/
+
+# Derleme çıktıları
+dist/
+*.tsbuildinfo
+
+# Yerel / geçici
+.tmp/
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+
+# Editör
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Loglar
+*.log
+npm-debug.log*
